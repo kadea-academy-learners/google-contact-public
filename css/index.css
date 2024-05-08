@@ -5,9 +5,9 @@
 /* Reset */
 @import url(reset.css);
 /* Background */
-@import url("background.css");
+@import url(background.css);
 /* Marge */
-@import url(margin.css);
+@import url(margins.css);
 /* Disposition */
 @import url(disposition.css);
 /* Width */
