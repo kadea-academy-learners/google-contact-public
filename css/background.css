@@ -7,4 +7,5 @@
   min-height: 85vh;
   padding: 2rem;
   border-radius: var(--border-radius);
+  /* transition: var(--transition); */
 }

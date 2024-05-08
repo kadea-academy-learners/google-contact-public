@@ -19,7 +19,7 @@
   <body class="bg-page-full">
     <header class="flex padding-container justify-s-between">
       <div class="flex justify-s-between items-center w-8">
-        <div class="pointer icon transition">
+        <div id="burger-menu" class="pointer icon transition">
           <span class="material-symbols-outlined"> Menu</span>
         </div>
         <div class="w-4rem">
@@ -46,7 +46,7 @@
       </div>
     </header>
     <main class="flex padding-container justify-s-between">
-      <section class="w-15">
+      <section id="side-bar" class="w-15">
         <div>
           <button
             type="button"
@@ -79,7 +79,7 @@
           >
             <span class="material-symbols-outlined margin-right-04rem">
               history </span
-            >Frequent
+            >Fréquents
           </button>
         </div>
         <div>
@@ -91,7 +91,7 @@
           </div>
         </div>
       </section>
-      <section class="w-90 main-section">
+      <section id="main-section" class="w-90 main-section">
         <h3 class="title title-level-1">Contacts <span>(0)</span></h3>
         <div class="contact-container flex justify-center items-center">
           <div>
@@ -120,4 +120,6 @@
       </section>
     </main>
   </body>
+
+  <script src="js/index.js"></script>
 </html>
