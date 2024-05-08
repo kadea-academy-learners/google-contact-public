@@ -1,5 +1,6 @@
 :root {
-  --primary-color: #b7dcfa;
+  --primary-light-color: #b7dcfa;
+  --primary-color: #0b57d0;
   --hover-color-component: #e6edfa;
   --hover-color-icon: #e9ebed;
   --text-color: #5f6368;
@@ -42,6 +43,10 @@ a {
 /* Marge */
 .padding-container {
   padding: 1rem;
+}
+
+.margin-top-bottom-1rem {
+  margin: 1rem 0;
 }
 
 /* Disposition */
@@ -175,6 +180,27 @@ a {
   border-radius: var(--border-radius);
 }
 
+/* Buttons */
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-radius-10 {
+  border-radius: 10rem;
+}
+
+.no-border {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.no-border:hover {
+  background-color: var(--primary-light-color);
+}
 /* Illustration */
 
 .illus-size-2rem {
