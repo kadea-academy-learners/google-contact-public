@@ -18,6 +18,10 @@
   font-size: 1rem;
 }
 
+.title-level-3 {
+  font-size: 0.95rem;
+}
+
 .text {
   color: var(--text-color);
 }
