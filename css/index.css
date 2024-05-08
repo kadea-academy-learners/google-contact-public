@@ -35,6 +35,8 @@ a {
 .main-section {
   background-color: var(--white);
   min-height: 85vh;
+  padding: 2rem;
+  border-radius: var(--border-radius);
 }
 
 /* Marge */
@@ -129,11 +131,32 @@ a {
 
 /* Title */
 
+.title {
+  color: var(--text-color);
+  font-style: normal;
+}
+
+.title span {
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: wavy;
+}
+
 .title-level-1 {
   font-size: 1.7rem;
-  color: var(--text-color);
   font-weight: 400;
-  font-style: normal;
+}
+
+.title-level-2 {
+  font-size: 2rem;
+}
+
+.text {
+  color: var(--text-color);
+}
+
+.text-align-center {
+  text-align: center;
 }
 
 /* Field input */
@@ -150,4 +173,14 @@ a {
   width: 40%;
   height: 3rem;
   border-radius: var(--border-radius);
+}
+
+/* Illustration */
+
+.illus-size-2rem {
+  width: 30rem;
+}
+
+.illus-size-2rem img {
+  width: 100%;
 }
