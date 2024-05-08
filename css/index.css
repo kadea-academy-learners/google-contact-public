@@ -5,6 +5,7 @@
   --text-color: #5f6368;
 
   --background-color: #f8fafd;
+  --white: #fff;
 
   --transition: all 0.5s ease-in-out;
   --font-family: "Roboto", sans-serif;
@@ -29,6 +30,11 @@ a {
 /* Background */
 .bg-page-full {
   background-color: var(--background-color);
+}
+
+.main-section {
+  background-color: var(--white);
+  min-height: 85vh;
 }
 
 /* Marge */
