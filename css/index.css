@@ -193,9 +193,26 @@ a {
   border-radius: 10rem;
 }
 
+.button-radius-07 {
+  border-radius: 0.7rem;
+}
+
 .no-border {
   color: var(--primary-color);
   font-weight: 500;
+}
+
+.contain {
+  background-color: var(--primary-light-color);
+  font-weight: 500;
+}
+
+.button-hover-shadow {
+  transition: var(--transition);
+}
+
+.button-hover-shadow:hover {
+  box-shadow: -6px 10px 11px -2px rgba(161, 161, 161, 1);
 }
 
 .no-border:hover {
