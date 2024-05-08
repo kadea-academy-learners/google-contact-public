@@ -1,0 +1,14 @@
+.pointer {
+  cursor: pointer;
+}
+
+.icon {
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: var(--transition);
+  color: var(--text-color);
+}
+
+.icon:hover {
+  background-color: var(--hover-color-icon);
+}

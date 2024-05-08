@@ -1,0 +1,33 @@
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.button-radius-10 {
+  border-radius: 10rem;
+}
+
+.button-radius-07 {
+  border-radius: 0.7rem;
+}
+
+.no-border {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.contain {
+  background-color: var(--primary-light-color);
+  font-weight: 500;
+}
+
+.button-hover-shadow:hover {
+  box-shadow: -6px 10px 11px -2px rgba(161, 161, 161, 1);
+}
+
+.no-border:hover {
+  background-color: var(--primary-light-color);
+}
