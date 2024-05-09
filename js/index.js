@@ -1,11 +1,9 @@
 // Selects all elements
-
 const burgerMenu = document.querySelector("#burger-menu");
 const sideBarMenu = document.querySelector("#side-bar");
 const mainSection = document.querySelector("#main-section");
 
-// Callback function
-
+// Callback functions
 const handleAddStyle = (element, style) => {
   element.classList.add(style);
 };
@@ -14,7 +12,7 @@ const handleRemoveStyle = (element, style) => {
   element.classList.remove(style);
 };
 
-// Add event
+// Add events
 
 burgerMenu.addEventListener("click", (event) => {
   if (sideBarMenu.classList.contains("display-none")) {
