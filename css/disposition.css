@@ -2,12 +2,10 @@
   display: none;
 }
 
-.z-index-12 {
-  z-index: -12;
-}
-
-.visibility {
-  visibility: none;
+.position {
+  position: absolute;
+  right: 4rem;
+  bottom: 4rem;
 }
 /* Flex  */
 .flex {

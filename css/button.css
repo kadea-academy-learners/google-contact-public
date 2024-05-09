@@ -34,9 +34,12 @@
 }
 
 .button-hover-shadow:hover {
-  box-shadow: -6px 10px 11px -2px rgba(161, 161, 161, 1);
+  box-shadow: var(--shadow);
 }
 
+.button-shadow {
+  box-shadow: var(--shadow);
+}
 .no-border:hover {
   background-color: var(--primary-light-color);
 }
